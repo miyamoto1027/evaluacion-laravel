@@ -18,3 +18,9 @@ Route::get('/', function () {
 Route::get('login','LoginController@index')->name('login');
 
 Route::get('contacto','ContactoController@index')->name('contacto');
+
+Route::get('quien', function () {
+
+    return view('aplicacion.quien');
+})->name('quien');
+Route::get('recuperar','RecuperarController@index')->name('recuperar');
