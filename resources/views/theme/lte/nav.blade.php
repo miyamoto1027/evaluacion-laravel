@@ -5,7 +5,7 @@
 			        <ol class="nav nav-pills">
 			            
 			             <li role="presentarion" ><a href="quien.php">Quienes somos</a></li>
-			             <li role="presentarion" ><a href="contactenos.php">Contactenos</a></li>
+			             <li role="presentarion" ><a href="{{ route('contacto') }}">Contactenos</a></li>
 			             <li role="presentarion" ><a href="{{ route('login') }}">Iniciar sesión</a></li>
 			             
 		            </ol>
